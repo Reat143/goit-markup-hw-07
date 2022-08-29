@@ -3,21 +3,17 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
 .filter-btn-list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
-
 .filter-btn-list__item {
     margin-right: 8px;
 }
-
 .filter-btn-list__item:last-child {
     margin-right: 0;
 }
-
 .filter-btn-list__btn {
     padding: 6px 22px 6px 22px;
     font-family: var(--main-font);
@@ -33,7 +29,6 @@
     cursor: pointer;
     transition: var(--main-animation);
 }
-
 .filter-btn-list__btn:hover,
 .filter-btn-list__btn:focus {
     color: var(--white);
@@ -49,31 +44,25 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-
 .filter-item-list__item {
     transition: var(--main-animation);
 }
-
 .filter-item-list__item:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
 .filter-item-list__wrapper {
     position: relative;
     display: flex;
     overflow: hidden;
 }
-
 .filter-item-list__wrapper:hover .filter-item-list__overlay {
     transform: translateY(0);
 }
-
 .filter-item-list__img {
     display: flex;
     max-width: 100%;
     height: auto;
 }
-
 .filter-item-list__overlay {
     position: absolute;
     display: flex;
@@ -84,7 +73,6 @@
     transform: translatey(100%);
     transition: var(--main-animation);
 }
-
 .filter-item-list__overlay>p {
     max-width: 322px;
     max-height: 168px;
@@ -93,12 +81,10 @@
     letter-spacing: 0.03em;
     color: var(--white);
 }
-
 .filter-item-list__poster-text {
     padding: 20px 24px 20px 24px;
     border: 1px solid #EEEEEE;
 }
-
 .filter-item-list__title {
     margin-bottom: 4px;
     font-size: 18px;
@@ -106,7 +92,6 @@
     letter-spacing: 0.06em;
     color: var(--title-color);
 }
-
 .filter-item-list__text {
     font-size: 16px;
     line-height: 1.88;

@@ -3,12 +3,10 @@
     padding-bottom: 60px;
     background-color: var(--second-bg-color);
 }
-
 .footer__container {
     display: flex;
     align-items: baseline;
 }
-
 .footer-contacts__logo {
     display: block;
     margin-bottom: 20px;
@@ -19,20 +17,16 @@
     text-decoration: none;
     color: var(--white);
 }
-
 .footer-contacts__text {
     color: var(--accent-color);
 }
-
 .footer-address__item {
     display: block;
     margin-bottom: 9px;
 }
-
 .footer-address__item:last-child {
     margin-bottom: 0;
 }
-
 .footer-address__link {
     font-style: normal;
     font-size: 14px;
@@ -42,7 +36,6 @@
     color: var(--white);
     transition: var(--main-animation);
 }
-
 .footer-address__link {
     font-style: normal;
     font-size: 14px;
@@ -52,16 +45,13 @@
     color: rgba(255, 255, 255, 0.6);
     transition: var(--main-animation);
 }
-
 .footer-address__link:hover,
 .footer-address__link:focus {
     color: var(--accent-color);
 }
-
 .footer-icons {
     margin-left: 70px;
 }
-
 .footer-icons__title {
     font-weight: 700;
     font-size: 14px;
@@ -70,19 +60,16 @@
     text-transform: uppercase;
     color: var(--white);
 }
-
 .footer-icons__list {
     display: flex;
     list-style: none;
     gap: 10px;
     margin-top: 20px;
 }
-
 .footer-icons__item {
     width: 44px;
     height: 44px;
 }
-
 .footer-icons__link {
     display: flex;
     align-items: center;
@@ -94,12 +81,10 @@
     border-radius: 50%;
     transition: var(--main-animation);
 }
-
 .footer-icons__icon {
     display: block;
     fill: currentColor;
 }
-
 .footer-icons__link:hover,
 .footer-icons__link:focus {
     background-color: var(--accent-color);
@@ -108,11 +93,9 @@
     border-radius: 50%;
     fill: var(--white);
 }
-
 .footer-subscription {
     margin-left: auto;
 }
-
 .footer-subscription-__title {
     margin-bottom: 20px;
     font-weight: 700;
@@ -122,19 +105,16 @@
     text-transform: uppercase;
     color: var(--white);
 }
-
 .footer-subscription__form {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .footer-subscription__label {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .footer-subscription__input {
     padding: 15px 16px;
     width: 358px;
@@ -148,11 +128,9 @@
     border-radius: 4px;
     background-color: var(--second-bg-color);
 }
-
 .footer-subscription__input:focus {
     outline-color: 1px solid rgba(255, 255, 255, 0.3);
 }
-
 .footer-subscription__btn {
     display: flex;
     margin-left: 12px;
@@ -169,7 +147,6 @@
     border-radius: 4px;
     cursor: pointer;
 }
-
 .footer-subscription__icon {
     margin-left: 10px;
     align-self: center;

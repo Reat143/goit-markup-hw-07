@@ -2,7 +2,6 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
 .clients__title {
     font-weight: 700;
     font-size: 36px;
@@ -12,19 +11,16 @@
     color: var(--title-color);
     margin-bottom: 50px;
 }
-
 .clients-list {
     display: flex;
     justify-content: center;
     list-style: none;
     gap: 30px;
 }
-
 .clients-list__item {
     width: 170px;
     height: 92px;
 }
-
 .clients-list__link {
     display: flex;
     align-items: center;
@@ -36,7 +32,6 @@
     border-radius: 4px;
     transition: var(--main-animation);
 }
-
 .clients-list__link:hover,
 .clients-list__link:focus {
     border: 1px solid var(--accent-color);

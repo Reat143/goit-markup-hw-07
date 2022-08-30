@@ -31,9 +31,9 @@
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     transition: var(--main-animation);
-}
-.clients-list__link:hover,
-.clients-list__link:focus {
-    border: 1px solid var(--accent-color);
-    fill: var(--accent-color);
+    &:hover,
+        &:focus {
+            border: 1px solid var(--accent-color);
+            fill: var(--accent-color);
+        }
 }

@@ -16,10 +16,11 @@
     position: relative;
     display: flex;
     margin-right: 30px;
+    &:last-child {
+            margin-right: 0;
+        }
 }
-.activity-list__item:last-child {
-    margin-right: 0;
-}
+
 .activity-list__wrap {
     position: absolute;
     bottom: 0;

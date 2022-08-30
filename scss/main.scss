@@ -5,16 +5,16 @@
 @import "./base/reset";
 
 // WebStudio - main page
-@import "./components/header";
-@import "./components/hero";
-@import "./components/advantages";
-@import "./components/activities";
-@import "./components/team";
-@import "./components/clients";
-@import "./components/footer";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/advantages";
+@import "./layouts/activities";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
 
 // Modal
-@import "./components/modal";
+@import "./layouts/modal";
 
 // WebStudio - portfolio
-@import "./components/portfolio-main";
+@import "./layouts/portfolio-main";
